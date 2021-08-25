@@ -1,5 +1,7 @@
 # Letmeask
 
+  Letmeask é uma plataforma construída para permitir que você reúna perguntas de seus espectadores durante a transmissão e que eles votem em quais são as melhores perguntas para você responder.
+
 ## 🧪 Technologies
   This project was developed using the following technologies:
 
