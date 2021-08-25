@@ -1,14 +1,14 @@
 # Letmeask
 
-🧪 Technologies
-This project was developed using the following technologies:
+## 🧪 Technologies
+  This project was developed using the following technologies:
 
 - React
 - Firebase
 - TypeScript
 
-💻 Projeto
-O Leatmeask é uma aplicação para poder interagir com sua audiência e responder perguntas enquanto você esstá ao vivo.
+## 💻 Projeto
+  O Leatmeask é uma aplicação para poder interagir com sua audiência e responder perguntas enquanto você esstá ao vivo.
 
 🚀 Como executar
 
