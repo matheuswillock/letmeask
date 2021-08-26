@@ -1,19 +1,26 @@
-//import {Button} from './components/Button';
-import {Button2} from './components/Button2';
+// import Router 
+import { BrowserRouter, Route } from 'react-router-dom';
+
+// import de pages
+import {Home} from './pages/Home';
+import { NewRoom } from './pages/NewRoom';
 
 
 function App() {
   return (
 
-    // <div>
-    //   {/* <Button text="Clique aqui!" /> */}
-    //   <Button> Clique aqui! </Button>
-    // </div>
+    
+    <BrowserRouter>
 
-    <div>
-      <Button2></Button2>
-    </div>
+
+      {/* Se não passarmos exact as duas pages serão renderizadas juntas uma abaixo da outra */}
+      <Route path='/' exact component={ Home } />
+      <Route path='/rooms/new' component={ NewRoom } />
+
+
+    </BrowserRouter>
+    
   );
 }
 
-export default App;
+export default App; 
